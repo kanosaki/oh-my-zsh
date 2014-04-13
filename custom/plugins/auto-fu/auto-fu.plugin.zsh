@@ -1,5 +1,5 @@
 
-source $ZSH/plugins/auto-fu/auto-fu.zsh
+source $ZSH/custom/plugins/auto-fu/auto-fu.zsh
 function zle-line-init () {
     auto-fu-init
 }
