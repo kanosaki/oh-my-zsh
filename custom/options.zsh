@@ -53,7 +53,7 @@ setopt hist_no_store
 setopt hist_reduce_blanks
 
 # 行頭がスペースで始まるコマンドラインはヒストリに記録しない
-# setopt hist_ignore_spece
+#setopt hist_ignore_spece
 
 # 重複したヒストリは追加しない
 # setopt hist_ignore_all_dups
@@ -62,7 +62,7 @@ setopt hist_reduce_blanks
 setopt hist_verify
 
 # auto_list の補完候補一覧で、ls -F のようにファイルの種別をマーク表示しない
-setopt no_list_types
+#setopt no_list_types
 
 # コマンドラインの引数で --prefix=/usr などの = 以降でも補完できる
 setopt magic_equal_subst
