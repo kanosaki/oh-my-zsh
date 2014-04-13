@@ -1,0 +1,28 @@
+
+
+# Environment configurations
+
+# oh-my-zsh root directory
+export ZSH=$HOME/.oh-my-zsh
+
+
+# PATH etc.. configurations
+
+# typeset -U supports path, cdpath, fpath, manpath
+
+typeset -U path
+path=(
+    /usr/local/bin(N-/)
+    /usr/local/sbin(N-/)
+    /usr/bin
+    /usr/sbin(N-/)
+    /bin
+    /sbin(N-/)
+)
+
+function typeset_as_path_list {
+    local upcased=$(perl -e "print uc(\"$1\n\")")
+    eval "[[ -z \$$1 ]] && typeset -xT $upcased $1" 
+}
+
+typeset_as_path_list ld_library_path
