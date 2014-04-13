@@ -55,7 +55,6 @@ zstyle ':completion:*' group-name ''
 
 # cd をしたときにlsを実行する
 function chpwd() { 
-    pwd_title
     ls
 }
 
