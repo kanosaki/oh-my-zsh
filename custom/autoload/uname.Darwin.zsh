@@ -9,3 +9,5 @@ if (( $+commands[rmtrash] )); then
 else
     echo "+++++ rmtrash not found ++++++"
 fi
+
+alias o=open
