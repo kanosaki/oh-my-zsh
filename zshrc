@@ -82,7 +82,7 @@ plugins=(git
     screen
     urltools
     virtualenv
-#    virtualenvwrapper
+    virtualenvwrapper
     z)
 
 source $ZSH/oh-my-zsh.sh
