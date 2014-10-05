@@ -44,6 +44,3 @@ alias gpp="g++"
 alias le="less"
 alias sml='rlwrap sml'
 alias vi='vim'
-
-compdef mosh=ssh
-
